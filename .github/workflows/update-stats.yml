@@ -22,7 +22,9 @@ jobs:
           filename: images/stats.svg
           user: OlivierGuntenaar
           template: classic
-          base: header, activity, community, repositories
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
           config_timezone: America/Los_Angeles
           config_display: large
           config_output: svg
